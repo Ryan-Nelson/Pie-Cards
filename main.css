@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+.title h2{
+    margin: 0px;
+    border: 1px solid lightblue;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+img{
+    max-height: 70%;
+   max-width: 70%;
+   
+}
+#peconPie img{
+    width: 1000px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cards > div{
+    border: 1px solid lightblue;
+    margin: 5px;
+    max-width: 30%;
+    max-height: 30%;
+    box-shadow: 0 4px 8px 0 rgb(0,0,2);
+}
+.Specifications > p{
+    font-weight: bold;
+}
+
+.priceing > p{
+    font-weight: bold;
+}
+.available{
+    background-color: darkgray;
+    color: yellow;
+    margin: 10px;
+}
